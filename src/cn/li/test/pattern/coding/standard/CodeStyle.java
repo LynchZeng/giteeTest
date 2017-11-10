@@ -6,6 +6,8 @@ import java.util.Scanner;
 class Calculator {
 	public static void startCalculator1(){
 		Scanner sc = new Scanner(System.in);
+		
+		
 		System.out.println("请输入数字a:");
 		Float a = sc.nextFloat();
 		System.out.println("请输入运算符号（+、-、*、/）:");
